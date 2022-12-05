@@ -1,9 +1,9 @@
 # Sentimental-Response-of-COVID-19-Outbreak-in-Guangzhou-China-Based-on-Weibo-Night-Comments
 Advantages: 
-1) 使用python爬取了微博的高级搜索界面一级和二级评论数据；
-2）文本分析的对象为中文文本，R语言对中文文本进行分析的案例较少，而这里使用了大连理工情感词典进行情感分析。
-Word2vec：根据词向量探究不同地区的疫情情况； Topic model：LDA； Sentiment model：LSS；
-其中处理了中文分词问题，使用jiebaR包可以更好地进行分词且可以自定义；
+1. 使用python爬取了微博的高级搜索界面一级和二级评论数据；
+2. 文本分析的对象为中文文本，R语言对中文文本进行分析的案例较少，而这里使用了大连理工情感词典进行情感分析。\
+Word2vec：根据词向量探究不同地区的疫情情况； Topic model：LDA； Sentiment model：LSS；\
+其中处理了中文分词问题，使用jiebaR包可以更好地进行分词且可以自定义；\
 处理了corpus为空值的情况等
 
 ## 1.Python to scawl the advanced searching comments of Weibo
