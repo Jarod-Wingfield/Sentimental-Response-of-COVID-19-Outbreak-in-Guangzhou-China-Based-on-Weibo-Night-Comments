@@ -1,0 +1,27 @@
+## Text analysis of Weibo comments during Covid-19 outbreak in Guangzhou China
+
+### Data_process:
+
+Due to the form of weibo comments crawled by python, I have to combine them and adjust. The post-process data were output as **wb_comment_covidGZ.rds (data Oct. to Nov.)**
+
+**wb_comment_covidGZ(New).rds (data Sept. to Nov.)**
+
+### covidGZ_line:
+
+The file is used to generate two line of covid situation in Guangzhou China from 2022/9/5 to 2022/12/3.
+
+### Word_and_Sentiment_Analysis.R:
+
+This fire does the normal text analysis on weibo comments. Using the Chinese emotional dictionary to analysis the Weibo comments, I drew a graph of sentiment situation along time.
+
+### Word2vec_model.R:
+
+Using the Word2vec package to analysis the covid-19 situation in diffect areas.
+
+### LSS_model.R:
+
+Using the Latent Semantic Scaling to analysis the sentiment. This method is trained for evaluating the word's sentiment, which is better than counting the power of comments.
+
+### Topic_model.R:
+
+Using the LDA to find the topic, I could observe the changes in prevention and control efforts.
