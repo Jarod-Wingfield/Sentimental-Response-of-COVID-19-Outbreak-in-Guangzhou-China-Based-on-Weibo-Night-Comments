@@ -1,4 +1,4 @@
-# Sentimental-Response-of-COVID-19-Outbreak-in-Guangzhou-China-Based-on-Weibo-Night-Comments
+# Sentimental Response of COVID-19 Outbreak in Guangzhou, China
 Contributions: 
 1. I used python to crawl the first and second level comment data of the advanced search interface on Weibo(a popular social media platform in China).
 2. The object of text analysis is Chinese text, and there are fewer cases of R language analyzing Chinese text. Meanwhile, the Dalian Polytechnic Sentiment Dictionary (Chinese dictionary) was used here for the first time for sentiment analysis. This project contains most of the problems that will be encountered when dealing with Chinese word separation. Using the jiebaR package allows for better and customizable segmentation, and I dealt with the case where corpus is null etc.
